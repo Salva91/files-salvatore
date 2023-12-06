@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the music you are</title>
+</head>
+<body>
+    <form onsubmit="alert('form inviato con successo')">
+    <h1>app music streaming</h1>
+    <div></div>
+        <input type="text" placeholder="inserisci il tuo nome"/>
+    </div>
+    <div>
+        <input type="text" placeholder="inserisci il tuo cognome"/>
+    </div>
+    <div>
+        <input type="email" placeholder="inserisci il tuo indirizzo email"/>
+    </div>
+    <div>
+        <input type="password" placeholder="inserisci la tua password"/>
+    </div>
+    <div>
+        <input type="date" placeholder="inserisci la data di nascita"/>
+    </div>
+    <div>
+        <input type="number" placeholder="inserisci il numero di telefono"/>
+    </div>
+    <div>
+        <label for="gusti">Seleziona i tuoi gusti musicali:</label>
+    </div>
+    <div>
+        <input type="checkbox" id="rock" name="rock">
+    </div>
+    <div>
+        <label for="rock">Rock</label>
+    </div>
+    <div>
+        <input type="checkbox" id="pop" name="pop">
+    </div>
+    <div>
+        <label for="pop">Pop</label>
+    </div>
+    <div>
+        <input type="checkbox" id="jazz" name="jazz">
+    </div>
+    <div>
+        <label for="jazz">Jazz</label>
+    </div>
+    <div>
+        <label for="termini">Accetti i termini e le condizioni?</label>
+    </div>
+    <div>
+        <input type="radio" id="si" name="termini" value="si">
+    </div>
+    <div>
+        <label for="si">Sì</label>
+    </div>
+    <div>
+        <input type="radio" id="no" name="termini" value="no">
+    </div>
+    <div>
+        <label for="no">No</label>
+    </div>
+        <input type="submit" value="Invia registrazione">
+</form>
+
+
+
+</body>
+</html>
